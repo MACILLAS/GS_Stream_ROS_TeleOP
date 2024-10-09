@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source /opt/ros/noetic/setup.bash
-roslaunch rosbridge_server rosbridge_websocket.launch
+source /opt/ros/humble/setup.bash
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
